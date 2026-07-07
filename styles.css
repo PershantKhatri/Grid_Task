@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{ 
+    font-family: sans-serif; 
+    font-size: 80px; 
+    text-align: center; 
+    text-transform: capitalize; 
+    color: green; 
+    text-decoration: underline;
+    font-weight: bold;
+    }
+.parent{
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.child{
+    background: green;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.child_1{
+    grid-column: span 12;
+}
+.child_2,
+.child_3{
+    grid-column: span 6;
+}
+.child_4,
+.child_5,
+.child_6{
+    grid-column: span 4;
+}
+.child_7,
+.child_8,
+.child_9,
+.child_10{
+    grid-column: span 3;
+}
+.child_11,
+.child_12,
+.child_13,
+.child_14,
+.child_15,
+.child_16{
+    grid-column: span 2;
+}
+.child_17,
+.child_18,
+.child_19,
+.child_20,
+.child_21,
+.child_22,
+.child_23,
+.child_24,
+.child_25,
+.child_26,
+.child_27,
+.child_28{
+    grid-column: span 0;
+}
