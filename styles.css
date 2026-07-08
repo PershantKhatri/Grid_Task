@@ -6,7 +6,7 @@ h1{
     font-family: sans-serif; 
     font-size: 80px; 
     text-align: center; 
-    text-transform: capitalize; 
+    text-transform: uppercase; 
     color: green; 
     text-decoration: underline;
     font-weight: bold;
@@ -66,5 +66,5 @@ h1{
 .child_26,
 .child_27,
 .child_28{
-    grid-column: span 0;
+    grid-column: span 1;
 }
